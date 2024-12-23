@@ -1,5 +1,20 @@
 # preface_minimal_dll
 
+A small project attempting to create templates for extending the [preface](https://store.steampowered.com/app/2820060/Preface_Undiscovered_World/).
+
+Used tools: 
+* Dependencies (https://github.com/lucasg/Dependencies)
+* Binary Ninja (https://binary.ninja/)
+to figure out the minimal set of symbols the engine needs to load a DLL
+
+```
+int32_t __stdcall mb_ecs_set_kernel(void* ptr)
+int32_t __stdcall mb_ecs_report_component_libraries(int32_t var, char* char_buffer, int32_t size)
+int32_t __stdcall mb_ecs_report_component_library_version(const char* var, char* char_buffer, int32_t size)
+uint32_t __stdcall mb_ecs_report_components(uint32_t var, const char** cb1, const char** cb2, uint32_t* s1, uint32_t* s2, void* p1, void* p2)
+void __stdcall mb_ecs_exit_system_library()
+```
+
 
 ## compile 
 ```bash
