@@ -43,7 +43,7 @@ INSERT INTO system_libraries VALUES('ecs_test_sys','1.0.0.0');
 INSERT INTO init_systems_module_scenario VALUES('mb_ecs_sys_init_test',0,1,1,NULL,NULL);
 ```  
 
-6 If you want to handle updates (to do something with the data), use `update_systems_module_scenario.sql` and add the relevant update statements there.
+6. If you want to handle updates (to do something with the data), use `update_systems_module_scenario.sql` and add the relevant update statements there.
 
 
 
