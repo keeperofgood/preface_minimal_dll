@@ -17,13 +17,21 @@ void __stdcall mb_ecs_exit_system_library()
 
 
 ## compile 
+Install the required tools
+Windows SDK (preferably the latest version)
+Visual Studio Community (free IDE with a built-in MSVC compiler) 
+Cmake 
+
+Set up the project
+
 ```bash
 mkdir build
 cd build
 cmake ..
 cmake --build .
 ```
-
+These commands assume you have CMake installed and added to your environment variables.
+CMake will automatically detect Visual Studio and configure the project for the chosen toolchain.
 
 ## Mod Preface
 
