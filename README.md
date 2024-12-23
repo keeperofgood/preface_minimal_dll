@@ -1,6 +1,6 @@
 # preface_minimal_dll
 
-A small project attempting to create templates for extending the [preface](https://store.steampowered.com/app/2820060/Preface_Undiscovered_World/).
+A small project that attempts to create templates for extending [preface](https://store.steampowered.com/app/2820060/Preface_Undiscovered_World/).
 
 Used tools: 
 * Dependencies (https://github.com/lucasg/Dependencies)
